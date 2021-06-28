@@ -1,0 +1,25 @@
+importjava.io.*;
+importjava.util.*;
+classalphabet
+{
+publicstaticvoidmain(Stringargv[])
+{
+ScannerG=newScanner(System.in);
+System.out.println("Give a alphabet: \n");
+chars=G.next().charAt(0); 
+switch(s)
+{
+case'a'
+case'e':
+case'i':
+case'o':
+case'u':
+System.out.println("vowel");break;
+default:
+System.out.println("consonant");
+}
+}
+}
+OUTPUT:
+Give a alphabet:a
+Vowel
